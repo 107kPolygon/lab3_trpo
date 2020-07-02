@@ -47,6 +47,13 @@ namespace lab3_trpo
           Console.WriteLine($"{a / b}");
           Console.ReadKey();
         }
+      static void min(float a, float b)
+      {
+          Console.Clear();
+          Console.WriteLine($"{a - b}");
+          Console.ReadKey();
+      
+      }
 
 
 
@@ -63,7 +70,6 @@ namespace lab3_trpo
             Console.WriteLine($"{a + b}");
             Console.ReadKey();
         }
-    
 
     }
 }
