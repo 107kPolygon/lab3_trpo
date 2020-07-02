@@ -41,6 +41,7 @@ namespace lab3_trpo
         }
 
 
+
         static void umn(float a, float b)
         {
             Console.Clear();
@@ -48,6 +49,13 @@ namespace lab3_trpo
             Console.ReadKey();
         }
 
+        static void sum(float a, float b)
+        {
+            Console.Clear();
+            Console.WriteLine($"{a + b}");
+            Console.ReadKey();
+        }
     
+
     }
 }
